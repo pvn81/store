@@ -5,15 +5,14 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{CFBBC715-25EA-416A-8BC3-CC3DF45A11F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store", "domain\Store\Store.csproj", "{B06AB06E-858C-4118-8234-4A01965F1DEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store", "domain\Store\Store.csproj", "{B06AB06E-858C-4118-8234-4A01965F1DEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{991212EE-4C9C-4B6B-A60F-42C38481E334}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B06AB06E-858C-4118-8234-4A01965F1DEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -21,7 +20,13 @@ Global
 		{B06AB06E-858C-4118-8234-4A01965F1DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B06AB06E-858C-4118-8234-4A01965F1DEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B06AB06E-858C-4118-8234-4A01965F1DEB} = {CFBBC715-25EA-416A-8BC3-CC3DF45A11F3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAEC55FA-8610-4277-A0D2-B501BEE4CA99}
 	EndGlobalSection
 EndGlobal
